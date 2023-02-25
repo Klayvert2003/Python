@@ -20,10 +20,10 @@ Exemplo em Java
 int numero = 42;
 """
 
-numero = 42 # Exemplo de variável global
+NUMERO = 42 # Exemplo de variável global
 
-if numero > 10:
-    novo = numero + 10 # Variável 'novo' é local, pois se não entrar na condição a mesma não será criada
+if NUMERO > 10:
+    novo = NUMERO + 10 # Variável 'novo' é local, pois se não entrar na condição a mesma não será criada
     print(novo)
 
 #Caso a variável 'numero' não entre na condição acima, a variável 'novo' não é criada.

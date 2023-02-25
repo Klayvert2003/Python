@@ -9,14 +9,14 @@ Python for item in interavel:
 
 utilizamos loops para iterar sobre sequências ou sobre valores iteráveis
 - String
-    nome = 'Geek University'
+    nome = 'Klayvert Alves'
 - Lista 
     lista = [1, 3, 5, 7, 9]
 -Range
-    numeros = rainge[1,10]
+    numeros = range[1,10]
 """
 """
-nome = 'Geek University'
+nome = 'Klayvert Alves'
 lista = [1, 3, 5, 7, 9]
 numeros = range(1,10) # Temos que transformar em uma lista
 
@@ -44,7 +44,7 @@ OBS: o valor_final não é incluso.
 9
 10 - Não
 
-nome = 'Geek University'
+nome = 'Klayvert Alves'
 lista = [1, 3, 5, 7, 9]
 numeros = range(1,10) # Temos que transformar em uma lista
 
@@ -85,7 +85,7 @@ for n in range(1, qtde + 1): #pois por conta do indice é sempre um número a me
     soma = soma + num
 print(f"A soma é: {soma}")
 
-nome = 'Geek University'
+nome = 'Klayvert Alves'
 
 for letra in nome:
     print(letra, end='') #Desta forma ele printa as letras uma na frente da outra, não pulando linha.

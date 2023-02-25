@@ -24,7 +24,7 @@ while num < 10:
 resposta = ' '
 
 while resposta != 'sim' or 'SIM' or 'Sim' or 'S' or 's':
-    resposta = input("Tu é gay? ")
+    resposta = input("você gosta de futebol? ")
 """
 
 #Exemplo 3:
