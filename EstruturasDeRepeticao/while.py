@@ -20,8 +20,20 @@ while num < 10:
 """
 
 #Exemplo 2:
-
+"""
 resposta = ' '
 
 while resposta != 'sim' or 'SIM' or 'Sim' or 'S' or 's':
     resposta = input("Tu é gay? ")
+"""
+
+#Exemplo 3:
+
+condicao = True
+
+while condicao:
+    nome = input('Digite seu nome: ')
+    print(f'Seu nome é {nome}')
+    if nome == 'Klayvert':
+        condicao = False
+        #break
